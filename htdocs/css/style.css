@@ -1,0 +1,97 @@
+#contact-us{
+    background-color: #e1d856;
+    padding: 50px 0;
+}
+#contact-us .row {
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    #fff;
+}
+
+#contact-us input, #contact-us textarea {
+    border: 1px solid #fff;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    background: none;
+    color: #fff;
+}
+
+#contact-us textarea {
+    height: 135px;
+    resize: none;
+}
+
+#clients {
+    background-color: #2f3a51;
+    padding: 50px 0;
+}
+
+#clients .row{
+    margin: 0 auto;
+}
+
+#clients .well{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+#clients .row .carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+#clients .row .onebyone-carosel .active.left { left: -33.33%; }
+#clients .row .onebyone-carosel .active.right { left: 33.33%; }
+#clients .row .onebyone-carosel .next { left: 33.33%; }
+#clients .row .onebyone-carosel .prev { left: -33.33%; }
+
+#clients .well .carousel-control.left{
+    background: none;
+}
+
+#clients .well .carousel-control.right{
+    background: none;
+}
+
+footer {
+    background-color: #15181f;
+}
+
+footer .footer-logo {
+    width: 80%;
+}
+
+
+footer .nav.navbar-nav {
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+footer .nav li{
+
+}
+
+footer .contact-mail{
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+}
+
+footer .footer-base p{
+    font-size: 100%;
+
+}
