@@ -382,9 +382,13 @@ a:focus {
 }
 
 
-@media(min-width:900px) {
+@media(min-width:1000px) {
+    .advertise-publishers-section{
+        height: 770px;
+    }
+
     .advertise-section {
-        height: 465px;
+        height: 403px;
     }
 
     .advertise-section p{
@@ -412,8 +416,12 @@ a:focus {
 
 
 @media(min-width:1215px) {
+    .advertise-publishers-section{
+        height: 837px;
+    }
+
     .advertise-section {
-        height: 465px;
+        height: 440px;
     }
 
     .advertise-section p{
