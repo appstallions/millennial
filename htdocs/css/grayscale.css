@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato';
     color: #fff;
     background-color: #000;
 }
@@ -25,7 +25,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato';
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -65,8 +65,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #000;
+    font-family: 'Lato';
 }
 
 .navbar-custom .navbar-brand {
@@ -132,7 +131,7 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
+        background-size: 100%;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -150,11 +149,10 @@ a:focus {
     width: 100%;
     height: auto;
     padding: 150px 0;
-    margin-top: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/header_bg.png) no-repeat bottom center scroll;
-    background-color: #000;
+    background: url(../img/header_bg.png) no-repeat center center scroll;
+    background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -269,16 +267,51 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.advertise-publishers-section{
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    margin-top: 100px;
+    background: url(../img/new_advertise_bg.png) no-repeat center center scroll;
+    background-color: #357bb2;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 886px;
+}
+
+.advertise-section h4{
+    margin: 15px 0px 10px 0px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.advertise-section p{
+    font-size: 10px;
+    text-align: left;
+}
+/*
+.publishers-section{
+    width: 100%;
+    height: 421px;
+    background: url(../img/publisher_bg.png) no-repeat center center scroll;
+    background-color: #357bb2;    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
+    margin-top: 0px;
+}
+*/
+
+.publishers-section h4{
+    margin: 15px 0px 10px 0px;
+    margin-left: auto;
+    text-align: left;
+}
+
+.publishers-section p{
+    font-size: 10px;
+    text-align: left;
 }
 
 #map {
@@ -292,8 +325,22 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
-        padding: 100px 0;
+    .advertise-section {
+        font-size: 15px;
+    }
+
+    .advertise-section p{
+        font-size: 15px;
+        margin: 15px 0px 10px 0px;
+    }
+
+    .publishers-section {
+        font-size: 15px;
+    }
+
+    .publishers-section p{
+        font-size: 15px;
+        margin: 15px 0px 10px 0px;
     }
 
     #map {
@@ -305,7 +352,7 @@ a:focus {
 .btn {
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Lato';
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -388,7 +435,11 @@ body {
     text-align: left;
 }
 
-
 .about-us .about-info-color{
     color: #747474;
 }
+
+.about-us {
+    padding: 0;
+}
+
