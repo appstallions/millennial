@@ -14,6 +14,9 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- bxslider CSS -->
+    <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" />
+
     <!-- Custom CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -62,7 +65,7 @@
                         <a class="page-scroll" href="#publishers">PUBLISHERS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact-us">CONTACT US</a>
+                        <a class="page-scroll" href="#contact">CONTACT US</a>
                     </li>
                     <li>
                         <div class="login-signup-buttons-wrapper">
@@ -95,7 +98,7 @@
     <!-- About Section -->
     <section id="about" class="about-us content-section text-center">
         <div class="container">
-            <div class="col-md-12"><h3>About Us</h3></div>
+            <h2  class="section-header">About Us</h2>
             <div class="col-md-4 about-info-color">                    
                 <p>Millennial is built on the simple principle of user first approach.</p>
             </div>              
@@ -110,7 +113,7 @@
         <div class="container">
             <div id="advertisers" class="advertise-section">
                 <div class="col-md-6">
-                    <h3>Advertisers</h3>
+                    <h2 class="section-header">Advertisers</h2>
                     <p>We Drive your Dream Of Building Brand & BusinessThrough Right Publishers/Affiliate Traffic</p>
                     <ul>                         
                         <li>Dedicated Account Managers for your campaign</li>
@@ -128,10 +131,10 @@
                 </div>                
             </div>
 
-            <div id="publishers"  class="publishers-section">
+            <div id="publishers"  class="publishers-section row">
                 <div class="col-xs-6"></div>                
                 <div class="col-xs-6 ">
-                    <h3>Publishers</h3>
+                    <h2  class="section-header">Publishers</h2>
                     <ul>
                         <li>Native Ads Platform</li>
                         <li>Anytime Publisher Support With Dedicated Account Manager</li>
@@ -150,9 +153,9 @@
     </section>
 
     <!-- Contact Us -->
-    <section id="contact-us">
+    <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
+            <h2  class="section-header">Contact Us</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <div>
@@ -185,39 +188,21 @@
     <!-- Clients -->
     <section id="clients">
         <div class="container">
-            <h2>Clients</h2>
-            <div class="well">
-                <div id="clientCarousel" class="carousel fdi-Carousel slide">
-                    <!-- Carousel items -->
-                    <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
-                        <div class="carousel-inner onebyone-carosel">
-                            <div class="item active">
-                                <div class="col-md-4">
-                                    <a href="#"><img src="img/client_boeing.png" class="img-responsive center-block"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="#"><img src="img/client_google.png" class="img-responsive center-block"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="#"><img src="img/client_david.png" class="img-responsive center-block"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-md-4">
-                                    <a href="#"><img src="img/client_united.png" class="img-responsive center-block"></a>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
-                        <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
-                    </div>
-                    <!--/carousel-inner-->
-                </div><!--/myCarousel-->
-            </div><!--/well-->
+            <h2  class="section-header">Clients</h2>
+            <div class="slider1">
+                <div class="slide">
+                    <a href="#"><img src="img/client_boeing.png" class="img-responsive center-block"></a>
+                </div>
+                <div class="slide">
+                    <a href="#"><img src="img/client_google.png" class="img-responsive center-block"></a>
+                </div>
+                <div class="slide">
+                    <a href="#"><img src="img/client_united.png" class="img-responsive center-block"></a>
+                </div>
+                <div class="slide">
+                    <a href="#"><img src="img/client_david.png" class="img-responsive center-block"></a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -245,7 +230,7 @@
                     <a class="page-scroll" href="#publishers">PUBLISHERS</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="#contact-us">CONTACT US</a>
+                    <a class="page-scroll" href="#contact">CONTACT US</a>
                 </li>
             </ul>
         </div>
@@ -269,6 +254,9 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- BxSlider -->
+    <script src="js/jquery.bxslider.js"></script>
+
     <!-- Plugin JavaScript -->
     <script src="js/jquery.easing.min.js"></script>
 
@@ -277,22 +265,15 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $('#clientCarousel').carousel({
-                interval: 10000
-            })
-            $('.fdi-Carousel .item').each(function () {
-                var next = $(this).next();
-                if (!next.length) {
-                    next = $(this).siblings(':first');
-                }
-                next.children(':first-child').clone().appendTo($(this));
-
-                if (next.next().length > 0) {
-                    next.next().children(':first-child').clone().appendTo($(this));
-                }
-                else {
-                    $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
-                }
+            $('.slider1').bxSlider({
+                slideWidth: 1000,
+                moveSlides: 1,
+                minSlides: 4,
+                maxSlides: 4,
+                slideMargin: 10,
+                pager: false,
+                nextText: '>',
+                prevText: '<',
             });
         });
     </script>
