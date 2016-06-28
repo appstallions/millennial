@@ -1,0 +1,34 @@
+
+
+
+@media(min-width:1000px) {
+    .advertise-publishers-section{
+        height: 770px;
+    }
+
+    .advertise-section {
+        height: 403px;
+    }
+
+    .advertise-section p{
+        font-size: 14px;
+    }
+
+    .advertise-section li{
+        font-size: 14px;
+        margin:4px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 15px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 15px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 14px;
+        margin:4px 0px;
+    }
+}

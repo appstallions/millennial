@@ -36,13 +36,6 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:768px) {
-    p {
-        margin: 0 0 35px;
-        font-size: 20px;
-        line-height: 1.6;
-    }
-}
 
 a {
     color: #42dca3;
@@ -126,39 +119,11 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:995px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 0;
-        letter-spacing: 1px;
-        background-size: 100%;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-    }
-}
-
 .navbar-brand>img{
     margin-top: 5px;
 }
 
-@media(max-width:994px) {
-    .navbar-brand>img{
-        margin-top: -5px;
-    }
-}
 
-@media (max-width: 768px){
-    .navbar-brand>img {
-       width: 80%;
-    }
-}
 
 .intro {
     display: table;
@@ -185,25 +150,11 @@ a:focus {
 }
 
 .intro .intro-body .intro-text {
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
     border-bottom: 1px solid #fff
 }
 
-@media(min-width:768px) {
-    .intro {
-        height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 100px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 36px;
-    }
-}
 
 .btn-circle {
     width: 70px;
@@ -347,222 +298,6 @@ a:focus {
 
 
 
-@media(max-width:628px) {
-    
-    .advertise-publishers-section .sign-up img{
-        width: 50%;
-    }
-
-    .advertise-publishers-section{
-        height: 650px;
-    }
-
-    .advertise-section {
-        height: 342px;
-    }
-
-    .advertise-section p{
-        font-size: 10px;
-    }
-
-    .advertise-section li{
-        font-size: 10px;
-        margin:2px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 12px 0px;
-    }
-
-    .publishers-section li{
-        font-size: 10px;
-        margin:2px 0px;
-    }
-}
-
-@media(max-width:550px) {
-    .advertise-publishers-section .container{
-        background: rgba(0, 0, 0, 0.58);
-        height: 100%;
-    }
-
-    .advertise-section .section{
-        width: 100%;
-        float: left;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .publishers-section .section{
-        width: 100%;
-        float: left;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-
-    .advertise-publishers-section .sign-up img{
-        width: 40%;
-    }
-
-    .advertise-section p{
-        font-size: 12px;
-    }
-
-    .advertise-section li{
-        font-size: 12px;
-        margin:2px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 12px 0px;
-    }
-
-    .publishers-section li{
-        font-size: 12px;
-        margin:2px 0px;
-    }
-}
-
-@media(min-width:628px) {
-    .advertise-publishers-section{
-        height: 650px;
-    }
-
-    .advertise-section {
-        height: 342px;
-    }
-
-    .advertise-section p{
-        font-size: 10px;
-    }
-
-    .advertise-section li{
-        font-size: 10px;
-        margin:2px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section li{
-        font-size: 10px;
-        margin:2px 0px;
-    }
-}
-
-
-
-@media(min-width:767px) {
-    .advertise-publishers-section{
-        height: 745px;
-    }
-
-    .advertise-section {
-        height: 391px;
-    }
-
-    .advertise-section p{
-        font-size: 12px;
-    }
-
-    .advertise-section li{
-        font-size: 12px;
-        margin:3px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 10px 0px;
-    }
-
-    .publishers-section li{
-        font-size: 12px;
-        margin:3px 0px;
-    }
-}
-
-
-@media(min-width:1000px) {
-    .advertise-publishers-section{
-        height: 770px;
-    }
-
-    .advertise-section {
-        height: 403px;
-    }
-
-    .advertise-section p{
-        font-size: 14px;
-    }
-
-    .advertise-section li{
-        font-size: 14px;
-        margin:4px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 15px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 15px 0px;
-    }
-
-    .publishers-section li{
-        font-size: 14px;
-        margin:4px 0px;
-    }
-}
-
-
-@media(min-width:1215px) {
-    .advertise-publishers-section{
-        height: 837px;
-    }
-
-    .advertise-section {
-        height: 448px;
-    }
-
-    .advertise-section p{
-        font-size: 16px;
-    }
-
-    .advertise-section li{
-        font-size: 16px;
-        margin:5px 0px;
-    }
-
-    .advertise-section h3{
-        margin: 25px 0px;
-    }
-
-    .publishers-section h3{
-        margin: 25px 0px;
-    }
-    
-    .publishers-section li{
-        font-size: 16px;
-        margin:5px 0px;
-    }
-}
-
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -591,23 +326,6 @@ ul.banner-social-buttons {
     margin-top: 0;
 }
 
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    ul.banner-social-buttons li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons li:last-child {
-        margin-bottom: 0;
-    }
-}
 
 footer {
     padding: 100px 0 20px 0;
@@ -649,6 +367,15 @@ body {
     text-align: left;
 }
 
-.about-us .about-info-color{
+.about-us .about-info-1 p{
+    font-size: 35px;
     color: #747474;
+    font-family: 'PT Serif';
 }
+
+.about-us .about-info-2 p{
+    font-size: 22px;
+    padding-top: 16px
+}
+
+
