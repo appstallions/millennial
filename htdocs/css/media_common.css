@@ -49,3 +49,341 @@
         font-size: 45px;
     }
 }
+
+/******************************** Max Width 628 ********************************************/
+@media(max-width:628px) {
+    
+    .advertise-publishers-section .sign-up img{
+        width: 40%;
+    }
+
+    .advertise-publishers-section{
+        height: 700px;
+    }
+
+    .advertise-section {
+        height: 367px;
+    }
+
+    .advertise-section p{
+        font-size: 10px;
+    }
+
+    .advertise-section li{
+        font-size: 10px;
+        margin:2px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 12px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 10px;
+        margin:2px 0px;
+    }
+
+    h2.section-header{
+        font-size: 34px;
+    }
+
+    .intro{
+        padding: 100px 0;
+    }
+}
+
+/******************************** Min Width 628 ********************************************/
+@media(min-width:628px) {
+    .advertise-publishers-section{
+        height: 700px;
+    }
+
+    .advertise-section {
+        height: 367px;
+    }
+
+    .advertise-section p{
+        font-size: 10px;
+    }
+
+    .advertise-section li{
+        font-size: 10px;
+        margin:2px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 10px;
+        margin:2px 0px;
+    }
+
+    h2.section-header{
+        font-size: 35px;
+    }
+
+    .intro{
+        padding: 130px 0;
+    }
+}
+
+/******************************** Min Width 767 ********************************************/
+
+@media(min-width:767px) {
+    .advertise-publishers-section{
+        height: 770px;
+    }
+
+    .advertise-section {
+        height: 404px;
+    }
+
+    .advertise-section p{
+        font-size: 12px;
+    }
+
+    .advertise-section li{
+        font-size: 12px;
+        margin:3px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 12px;
+        margin:3px 0px;
+    }
+
+    h2.section-header{
+        font-size: 40px;
+    }
+
+    .intro{
+        padding: 100px 0;
+    }
+}
+
+/******************************** Min Width 1000 ********************************************/
+
+@media(min-width:1000px) {
+    .advertise-publishers-section{
+        height: 770px;
+    }
+
+    .advertise-section {
+        height: 403px;
+    }
+
+    .advertise-section p{
+        font-size: 14px;
+    }
+
+    .advertise-section li{
+        font-size: 14px;
+        margin:4px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 15px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 15px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 14px;
+        margin:4px 0px;
+    }
+}
+
+/******************************** Min Width 1215 ********************************************/
+
+@media(min-width:1215px) {
+    .advertise-publishers-section{
+        height: 837px;
+    }
+
+    .advertise-section {
+        height: 448px;
+    }
+
+    .advertise-section p{
+        font-size: 16px;
+    }
+
+    .advertise-section li{
+        font-size: 16px;
+        margin:5px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 25px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 25px 0px;
+    }
+    
+    .publishers-section li{
+        font-size: 16px;
+        margin:5px 0px;
+    }
+}
+
+/******************************** Max Width 550 ********************************************/
+
+@media(max-width:550px) {
+    .advertise-publishers-section .container{
+        background: rgba(0, 0, 0, 0.58);
+        height: 100%;
+    }
+
+    .advertise-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .publishers-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .advertise-publishers-section .sign-up img{
+        width: 35%;
+    }
+
+    .advertise-section p{
+        font-size: 12px;
+    }
+
+    .advertise-section li{
+        font-size: 12px;
+        margin:2px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 12px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 12px;
+        margin:2px 0px;
+    }
+
+    h2.section-header{
+        font-size: 30px;
+    }
+
+    .about-us .about-info-1 p{
+        font-size: 25px;
+    }
+
+    .about-us .about-info-2 p{
+        font-size: 16px;
+    }
+
+    .intro .intro-body .intro-text {        
+        font-size: 20px;
+    }
+
+    .intro{
+        padding: 150px 0;
+    }
+}
+
+/******************************** Max Width 400 ********************************************/
+@media(max-width:550px) {
+    .advertise-publishers-section .container{
+        background: rgba(0, 0, 0, 0.58);
+        height: 100%;
+    }
+
+    .advertise-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .publishers-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .advertise-publishers-section .sign-up img{
+        width: 35%;
+    }
+
+    .advertise-section p{
+        font-size: 11px;
+    }
+
+    .advertise-section li{
+        font-size: 11px;
+        margin:2px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 11px;
+        margin:2px 0px;
+    }
+
+    h2.section-header{
+        font-size: 25px;
+    }
+
+    .about-us .about-info-1 p{
+        font-size: 22px;
+    }
+
+    .about-us .about-info-2 p{
+        font-size: 15px;
+    }
+
+    .intro .intro-body .intro-text {        
+        font-size: 18px;
+    }
+
+    .intro{
+        padding: 100px 0;
+    }
+
+    .advertise-section{
+        padding-top:15px!important;
+    }
+}
