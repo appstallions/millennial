@@ -36,3 +36,24 @@ $('.navbar-collapse ul li a').click(function() {
 
 function init() {    
 }
+
+
+function OpenOutlookNewEmail()
+{
+    try
+    {
+        var body="Name : "+$("#contact_name").val()
+            +"%0D%0AEmail : "+$("#contact_email").val()
+            +"%0D%0AMobile : "+$("#contact_mobile").val()
+            +"%0D%0ACompany : "+$("#contact_company").val()
+            +"%0D%0AMessage : "+$("#contact_info").val();
+
+        var str = "mailto:contactus@millennial.digital?subject=Enquiry on Millennial Digital&body="+body;
+        window.location =  str;
+    }
+    catch(e)
+    {
+       alert(e);
+        // act on any error that you get
+    }
+}
