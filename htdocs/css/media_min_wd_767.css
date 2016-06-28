@@ -2,11 +2,11 @@
 
 @media(min-width:767px) {
     .advertise-publishers-section{
-        height: 745px;
+        height: 770px;
     }
 
     .advertise-section {
-        height: 391px;
+        height: 404px;
     }
 
     .advertise-section p{
@@ -29,5 +29,13 @@
     .publishers-section li{
         font-size: 12px;
         margin:3px 0px;
+    }
+
+    h2.section-header{
+        font-size: 40px;
+    }
+
+    .intro{
+        padding: 100px 0;
     }
 }

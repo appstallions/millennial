@@ -1,15 +1,15 @@
 @media(max-width:628px) {
     
     .advertise-publishers-section .sign-up img{
-        width: 50%;
+        width: 40%;
     }
 
     .advertise-publishers-section{
-        height: 650px;
+        height: 700px;
     }
 
     .advertise-section {
-        height: 342px;
+        height: 367px;
     }
 
     .advertise-section p{
@@ -32,5 +32,13 @@
     .publishers-section li{
         font-size: 10px;
         margin:2px 0px;
+    }
+
+    h2.section-header{
+        font-size: 34px;
+    }
+
+    .intro{
+        padding: 100px 0;
     }
 }

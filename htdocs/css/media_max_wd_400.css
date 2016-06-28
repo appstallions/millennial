@@ -25,11 +25,11 @@
     }
 
     .advertise-section p{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .advertise-section li{
-        font-size: 12px;
+        font-size: 11px;
         margin:2px 0px;
     }
 
@@ -38,31 +38,35 @@
     }
 
     .publishers-section h3{
-        margin: 12px 0px;
+        margin: 10px 0px;
     }
 
     .publishers-section li{
-        font-size: 12px;
+        font-size: 11px;
         margin:2px 0px;
     }
 
     h2.section-header{
-        font-size: 30px;
-    }
-
-    .about-us .about-info-1 p{
         font-size: 25px;
     }
 
+    .about-us .about-info-1 p{
+        font-size: 22px;
+    }
+
     .about-us .about-info-2 p{
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .intro .intro-body .intro-text {        
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .intro{
-        padding: 150px 0;
+        padding: 100px 0;
+    }
+
+    .advertise-section{
+        padding-top:15px!important;
     }
 }

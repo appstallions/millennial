@@ -10,9 +10,9 @@ h2.section-header{
 
 .navbar .login-signup-buttons-wrapper{
     background: url('../img/login_bg.png');
-    width: 185px;
-    height: 43px;
-    margin-top: 7px;
+    width: 146px;
+    height: 34px;
+    margin-top: 12px;
 }
 
 .navbar.navbar-custom .nav li .login-signup-buttons-wrapper div{
@@ -23,7 +23,7 @@ h2.section-header{
 .navbar.navbar-custom .nav li .login-signup-buttons-wrapper a.login-btn {
     position: relative;
     display: block;
-    padding: 3px 8px 3px 18px;
+    padding: 0px 3px 0px 6px;
     margin: 4px 0 0 7px;
     color: #000;
 }
@@ -81,8 +81,8 @@ h2.section-header{
 
 #contact a.submit{
     background-image: url('../img/submit_button.png');
-    width: 174px;
-    height: 66px;
+    width: 139px;
+    height: 53px;
     display: block;
     float: right;
     margin-right: -10px;
