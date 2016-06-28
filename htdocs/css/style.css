@@ -63,6 +63,11 @@
     resize: none;
 }
 
+#contact-us .container h2{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
 #contact-us a.submit{
     background-image: url('../img/submit_button.png');
     width: 174px;
