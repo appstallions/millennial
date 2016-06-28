@@ -122,6 +122,16 @@ h2.section-header{
     #contact a.submit {
         margin-right: 7px;
     }
+
+    #clients .bx-wrapper .bx-prev {
+        left: -25px !important;
+        top: 20%;
+    }
+
+    #clients .bx-wrapper .bx-next {
+        right: -25px !important;
+        top: 20%;
+    }
 }
 
 #clients {
@@ -142,7 +152,7 @@ h2.section-header{
 }
 
 #clients .bx-wrapper .bx-prev{
-    left: -21px;
+    left: 0px;
     background: url(../img/client_nav_arrow.png) no-repeat 0 0;
     -moz-transform: scale(-1, 1);
     -webkit-transform: scale(-1, 1);
@@ -153,7 +163,7 @@ h2.section-header{
 
 #clients .bx-wrapper .bx-next{
     background: url(../img/client_nav_arrow.png) no-repeat 0 0;
-    right: -19px;
+    right: 0px;
 }
 
 footer {
@@ -203,4 +213,8 @@ footer .footer-base p{
     margin: 30px 0;
     color: #97a3bd;
     font-size: 18px;
+}
+
+footer .nav > li > a:hover, .nav > li > a:focus{
+    background-color: transparent;
 }

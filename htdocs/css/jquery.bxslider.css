@@ -19,6 +19,8 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
+	display: block;
+	float: left;
 }
 
 .bx-wrapper img {
@@ -123,8 +125,7 @@
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
-	top: 50%;
-	margin-top: -16px;
+	top: 31%;
 	outline: 0;
 	width: 32px;
 	height: 32px;
