@@ -94,6 +94,10 @@
     .intro{
         padding: 100px 0;
     }
+
+    .section-header span{
+        height: 35px;
+    }
 }
 
 /******************************** Min Width 628 ********************************************/
@@ -134,6 +138,10 @@
 
     .intro{
         padding: 130px 0;
+    }
+
+    .section-header span{
+        height: 36px;
     }
 }
 
@@ -176,6 +184,9 @@
 
     .intro{
         padding: 100px 0;
+    }
+    .section-header span{
+        height: 40px;
     }
 }
 
@@ -314,6 +325,10 @@
     .intro{
         padding: 150px 0;
     }
+
+    .section-header span {
+        height: 28px;
+    }
 }
 
 /******************************** Max Width 400 ********************************************/
@@ -385,5 +400,9 @@
 
     .advertise-section{
         padding-top:15px!important;
+    }
+
+    .section-header span{
+        height: 26px;
     }
 }
