@@ -214,3 +214,7 @@ footer .footer-base p{
     color: #97a3bd;
     font-size: 18px;
 }
+
+footer .nav > li > a:hover, .nav > li > a:focus{
+    background-color: transparent;
+}
