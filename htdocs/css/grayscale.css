@@ -453,20 +453,28 @@ a:focus {
     }
 
     .advertise-section {
-        height: 440px;
+        height: 441px;
     }
 
     .advertise-section p{
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .advertise-section li{
-        font-size: 17px;
+        font-size: 16px;
         margin:5px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 25px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 25px 0px;
     }
     
     .publishers-section li{
-        font-size: 17px;
+        font-size: 16px;
         margin:5px 0px;
     }
 }
@@ -518,7 +526,7 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 50px 0 20px 0;
 }
 
 footer p {
@@ -566,5 +574,15 @@ body {
 }
 .navbar-brand>img{
     width: 70%;
+}
+
+.footer-navbar-links li{
+    margin: 0 25px;
+}
+
+.footer-navbar-links li a{
+    margin: 50px 0;
+    color: #97a3bd;
+    font-size: 20px;
 }
 

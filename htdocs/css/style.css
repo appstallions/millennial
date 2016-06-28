@@ -1,3 +1,31 @@
+.navbar .login-signup-buttons-wrapper{
+    background: url('../img/login_bg.png');
+    width: 185px;
+    height: 43px;
+    margin-top: 7px;
+}
+
+.navbar.navbar-custom .nav li .login-signup-buttons-wrapper div{
+    width: 49%;
+    display: inline-block
+}
+
+.navbar.navbar-custom .nav li .login-signup-buttons-wrapper a.login-btn {
+    position: relative;
+    display: block;
+    padding: 3px 8px 3px 18px;
+    margin: 4px 0 0 7px;
+    color: #000;
+}
+
+.navbar.navbar-custom .nav li .login-signup-buttons-wrapper a.signup-btn {
+    margin: 0px 0 0 0;
+    position: relative;
+    display: block;
+    color: #000;
+    padding: 4px 0 4px 4px;
+}
+
 #contact-us{
     background-color: #e1d856;
     padding: 50px 0;
@@ -24,7 +52,7 @@
 #contact-us input, #contact-us textarea {
     border: 1px solid #fff;
     width: 100%;
-    margin: 15px;
+    margin: 15px 0px 15px 0;
     padding: 15px;
     background: none;
     color: #fff;
@@ -33,6 +61,51 @@
 #contact-us textarea {
     height: 135px;
     resize: none;
+}
+
+#contact-us a.submit{
+    background-image: url('../img/submit_button.png');
+    width: 174px;
+    height: 66px;
+    display: block;
+    float: right;
+    margin-right: -10px;
+}
+
+#contact-us .row .col-lg-4:first-child{
+    padding-left: 0px;
+}
+
+#contact-us .row .col-lg-4:last-child{
+    padding-right: 0px;
+}
+
+@media(max-width:1199px) {
+    #contact-us .row .col-lg-4:first-child{
+        padding-left: 15px;
+    }
+
+    #contact-us .row .col-lg-4:last-child{
+        padding-right: 15px;
+    }
+
+    #contact-us a.submit {
+        margin-right: 7px;
+    }
+}
+
+@media(max-width:767px) {
+    #contact-us .row .col-lg-4:first-child{
+        padding-left: 15px;
+    }
+
+    #contact-us .row .col-lg-4:last-child{
+        padding-right: 15px;
+    }
+
+    #contact-us a.submit {
+        margin-right: 7px;
+    }
 }
 
 #clients {
@@ -89,9 +162,17 @@ footer .contact-mail{
     text-decoration: underline;
     text-align: center;
     display: block;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 footer .footer-base p{
     font-size: 100%;
+    color: #6c7995;
+}
 
+
+.footer-base .col-md-3{
+    text-align: center;
+    color: #6c7995;
 }
