@@ -164,7 +164,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 150px 0;
+    padding: 50px 0;
     text-align: center;
     color: #fff;
     background: url(../img/header_bg.png) no-repeat center center scroll;
@@ -295,7 +295,21 @@ a:focus {
 }
 
 .advertise-section, .publishers-section {
-    padding-top: 25px !important;
+            padding-top: 25px !important;
+}
+
+.advertise-section .section{
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.publishers-section .section{
+    width: 50%;
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .advertise-section h2, .publishers-section h2{
@@ -305,7 +319,7 @@ a:focus {
 }
 
 .advertise-section ul,.publishers-section ul{
-    padding: 0px 19px;
+    padding: 0px 14px;
 }
 
 .advertise-section p{
@@ -332,7 +346,13 @@ a:focus {
 }
 
 
+
 @media(max-width:628px) {
+    
+    .advertise-publishers-section .sign-up img{
+        width: 50%;
+    }
+
     .advertise-publishers-section{
         height: 650px;
     }
@@ -355,11 +375,58 @@ a:focus {
     }
 
     .publishers-section h3{
-        margin: 10px 0px;
+        margin: 12px 0px;
     }
 
     .publishers-section li{
         font-size: 10px;
+        margin:2px 0px;
+    }
+}
+
+@media(max-width:550px) {
+    .advertise-publishers-section .container{
+        background: rgba(0, 0, 0, 0.58);
+        height: 100%;
+    }
+
+    .advertise-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .publishers-section .section{
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .advertise-publishers-section .sign-up img{
+        width: 40%;
+    }
+
+    .advertise-section p{
+        font-size: 12px;
+    }
+
+    .advertise-section li{
+        font-size: 12px;
+        margin:2px 0px;
+    }
+
+    .advertise-section h3{
+        margin: 10px 0px;
+    }
+
+    .publishers-section h3{
+        margin: 12px 0px;
+    }
+
+    .publishers-section li{
+        font-size: 12px;
         margin:2px 0px;
     }
 }
@@ -585,4 +652,3 @@ body {
 .about-us .about-info-color{
     color: #747474;
 }
-
