@@ -279,16 +279,23 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $('.slider1').bxSlider({
-                slideWidth: 1000,
-                moveSlides: 1,
-                minSlides: 4,
-                maxSlides: 4,
-                slideMargin: 10,
-                pager: false,
-                nextText: '&nbsp;',
-                prevText: '&nbsp;',
-            });
+            $('.slider1').hide();
+            setTimeout(function(){
+                $('.slider1').show();
+                $('.slider1').bxSlider({
+                    slideWidth: 1000,
+                    moveSlides: 1,
+                    minSlides: 4,
+                    maxSlides: 4,
+                    slideMargin: 10,
+                    pager: false,
+                    nextText: '&nbsp;',
+                    prevText: '&nbsp;',
+                });
+                jQuery(window).resize();
+                console.log("Inside");
+
+            },2000);            
         });
     </script>
 
