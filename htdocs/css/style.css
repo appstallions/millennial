@@ -6,7 +6,7 @@
 }
 
 .navbar.navbar-custom .nav li .login-signup-buttons-wrapper div{
-    width: 49%;
+    width: 48%;
     display: inline-block
 }
 
@@ -163,7 +163,7 @@ footer .contact-mail{
     text-align: center;
     display: block;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 footer .footer-base p{
@@ -175,4 +175,14 @@ footer .footer-base p{
 .footer-base .col-md-3{
     text-align: center;
     color: #6c7995;
+}
+
+.footer-navbar-links li{
+    margin: 0 20px;
+}
+
+.footer-navbar-links li a{
+    margin: 30px 0;
+    color: #97a3bd;
+    font-size: 18px;
 }

@@ -577,12 +577,12 @@ body {
 }
 
 .footer-navbar-links li{
-    margin: 0 25px;
+    margin: 0 20px;
 }
 
 .footer-navbar-links li a{
-    margin: 50px 0;
+    margin: 40px 0;
     color: #97a3bd;
-    font-size: 20px;
+    font-size: 18px;
 }
 
